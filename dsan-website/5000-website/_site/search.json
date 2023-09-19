@@ -2,36 +2,106 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "DSAN-5000: Introduction",
+    "title": "Jorge Bris Moreno",
     "section": "",
-    "text": "See the following link for more information about the author: about me\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nHIGHLY RECOMMENDED\n\nIt is highly recommended that you build your website using .ipynb files and NOT .qmdfiles\nFunctionally the two formats are basically identical, i.e. they are just Markdown + Code\nHowever there is ONE MAJOR DIFFERENCE, i.e. .ipynb stores the code outputs in the meta-data of the file\n\nThis means you ONLY HAVE TO RUN THE CODE ONCE with .ipynb\n.qmd will run the code every time you build the website, which can be very slow\n\nThere are caching options for .qmd, however, they are “messier” that just using .ipynb\n\nNote: .qmd is fine if there is no code, in which case it is basically just a Markdown file\n\nConverting between the two\n\nYou can switch between the two formats using\nquarto convert clustering.qmd this will output a .ipynb version called clustering.ipynb\nquarto convert eda.ipynb this will output a .qmd version called eda.qmd\n\nYOU CAN RUN R CODE IN VSC WITH .ipynb, see the following link\n\nhttps://saturncloud.io/blog/how-to-use-jupyter-r-kernel-with-visual-studio-code/\n\nIt is possible, but NOT RECOMMENDED, to mix Python and R code in the same file\n\nIMPORTANT ASIDE\n\nA .ipynb file is simply a JSON file with a specialized structural format\nYou can see this by running more eda/eda.ipynb from the command line\nWhich will output the following;\n\n\nTIP FOR MAC USERS\n\ncommand+control+shift+4 is very useful on a mac.\n\nIt takes a screenshot and saves it to the clip-board\n\nThe following VSC extension allows you to paste images from the clip-board with alt+command+v.\n\ntab is your best friend when using the command line, since it does auto-completion\nopen ./path_to_file will open any file or directory from the command line"
+    "text": "Jorge Bris Moreno is a Master’s student of the Data Science and Analytics program at Georgetown University. In his undergraduate studies, he majored in Mathematics and Business from Franklin & Marshall College. His most relevant experiences have been in project management and business planning."
   },
   {
-    "objectID": "eda/eda.html",
-    "href": "eda/eda.html",
-    "title": "Data Exploration",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Finley Malloc",
     "section": "",
-    "text": "Build out your website tab for exploratory data analysis"
+    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
   },
   {
-    "objectID": "eda/eda.html#quick-look-at-the-data",
-    "href": "eda/eda.html#quick-look-at-the-data",
-    "title": "Data Exploration",
-    "section": "Quick look at the data",
-    "text": "Quick look at the data\n\n# Import seaborn\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Apply the default theme\nsns.set_theme(style=\"whitegrid\", palette=\"pastel\")\n\n# Load an example dataset\ntips = sns.load_dataset(\"tips\")\nprint(tips)\n\n     total_bill   tip     sex smoker   day    time  size\n0         16.99  1.01  Female     No   Sun  Dinner     2\n1         10.34  1.66    Male     No   Sun  Dinner     3\n2         21.01  3.50    Male     No   Sun  Dinner     3\n3         23.68  3.31    Male     No   Sun  Dinner     2\n4         24.59  3.61  Female     No   Sun  Dinner     4\n..          ...   ...     ...    ...   ...     ...   ...\n239       29.03  5.92    Male     No   Sat  Dinner     3\n240       27.18  2.00  Female    Yes   Sat  Dinner     2\n241       22.67  2.00    Male    Yes   Sat  Dinner     2\n242       17.82  1.75    Male     No   Sat  Dinner     2\n243       18.78  3.00  Female     No  Thur  Dinner     2\n\n[244 rows x 7 columns]"
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Finley Malloc",
+    "section": "Education",
+    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
   },
   {
-    "objectID": "eda/eda.html#basic-visualization",
-    "href": "eda/eda.html#basic-visualization",
-    "title": "Data Exploration",
-    "section": "Basic visualization",
-    "text": "Basic visualization\n\n\n# Create a visualization\nsns.relplot(\n    data=tips,\n    x=\"total_bill\", y=\"tip\", col=\"time\",\n    hue=\"smoker\", style=\"smoker\", size=\"size\",\n)\n\nplt.show()"
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Finley Malloc",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
   },
   {
-    "objectID": "clustering/clustering.html",
-    "href": "clustering/clustering.html",
-    "title": "Clustering",
+    "objectID": "Data.html",
+    "href": "Data.html",
+    "title": "About",
     "section": "",
-    "text": "Build out your website tab for “clustering”"
+    "text": "test"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Jorge Bris Moreno",
+    "section": "Education",
+    "text": "Education\nGeorgetown University | Washington, DC\n\nM.S in Data Science & Analytics | Jun 2023 - May 2025\nFranklin & Marshall College | Lancaster, PA\n\nB.A in Mathematics and Business | Aug 2019 - May 2023"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Jorge Bris Moreno",
+    "section": "Experience",
+    "text": "Experience\nStatistician | PhD student’s colaborator Program in Industries of Communication and Culture | Nov 2022 - Present\nClient Engagement & Resource Assistant | ASSETS | Sept 2022 - May 2023\nProject Manager Intern | Miller Mats | May 2022 - Aug 2022"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Jorge Bris Moreno",
+    "section": "",
+    "text": "Jorge Bris Moreno is a Master’s student of the Data Science and Analytics program at Georgetown University. In his undergraduate studies, he majored in Mathematics and Business from Franklin & Marshall College. His most relevant experiences have been in project management and business planning."
+  },
+  {
+    "objectID": "index.html#relevant-experience",
+    "href": "index.html#relevant-experience",
+    "title": "Jorge Bris Moreno",
+    "section": "Relevant Experience",
+    "text": "Relevant Experience\nStatistician | PhD student’s research colaborator\n\nNov 2022 - Present\nClient Engagement & Resource Assistant | ASSETS\n\nSept 2022 - May 2023\nProject Manager Intern | Miller Mats\n\nMay 2022 - Aug 2022"
+  },
+  {
+    "objectID": "Introduction.html",
+    "href": "Introduction.html",
+    "title": "What is the future of Public Transportation?",
+    "section": "",
+    "text": "Public transportation is any method of transportation available to the public that is sponsored by governmental entities. In some countries, it is the most used method of transportation while, in others, it is almost inexistent. What are the benefits of having public transportation? Should governmental entities invest on it? What are the preferred methods of transportation? These are just a few questions that every government asks themselves. The public transportation insdustry is one of the biggest lines of business worldwide, with trillions of everyday users. It is so important that cities plan their growth around it in order to provide equal access for everyone. Not only the methods of transport are taken into account, but all the infrastructure surrounding it such as freeways, roads, tunnels, etc. This infrastructure ensures social, economical, and environmental sustainability on the city (Murray et al. 1998)."
+  },
+  {
+    "objectID": "Introduction.html#education",
+    "href": "Introduction.html#education",
+    "title": "Introduction",
+    "section": "",
+    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "Introduction.html#experience",
+    "href": "Introduction.html#experience",
+    "title": "What is the future of Public Transportation?",
+    "section": "",
+    "text": "Wengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+  },
+  {
+    "objectID": "Introduction.html#summary",
+    "href": "Introduction.html#summary",
+    "title": "What is the future of Public Transportation?",
+    "section": "",
+    "text": "Public transportation is any method of transportation available to the public that is sponsored by governmental entities. In some countries, it is the most used method of transportation while, in others, it is almost inexistent. What are the benefits of having public transportation? Should governmental entities invest on it? What are the preferred methods of transportation? These are just a few questions that every government asks themselves. The public transportation insdustry is one of the biggest lines of business worldwide, with trillions of everyday users. It is so important that cities plan their growth around it in order to provide equal access for everyone. Not only the methods of transport are taken into account, but all the infrastructure surrounding it such as freeways, roads, tunnels, etc. This infrastructure ensures social, economical, and environmental sustainability on the city (Murray et al. 1998)."
+  },
+  {
+    "objectID": "Introduction.html#motivation",
+    "href": "Introduction.html#motivation",
+    "title": "What is the future of Public Transportation?",
+    "section": "Motivation",
+    "text": "Motivation\nI believe that the use of public transportation has an uncountable number of benefits. Growing up with many family members working for the public transportation sector in Madrid (Spain), I have developed a strong sense of value for this industry. While many variables and many different (sometimes opposite) interests need to be taken into account, public transport has become essential for our society. Millions of people depend on it to carry out essential activities such as shopping, going to work, or going to do other daily chores. For this reason, it is an industry that deserves severe research and development. Furthermore, due to COVID-19, the number of riders of public transportation have decreased, and there is an urgent need to bring them back. This will allow cities to be more socially sustainable and reduce the polution levels (UITP 2023).\nThe goal of this research is to make a case about the worth of having public transportation around the world and make recommendations for future steps that should be taken in this field."
+  },
+  {
+    "objectID": "Introduction.html#questions",
+    "href": "Introduction.html#questions",
+    "title": "What is the future of Public Transportation?",
+    "section": "Questions",
+    "text": "Questions\n\nHow does public transport affect pollution?\nWhat are the most pressing issues related to public transport?\nHow will intelligent (autonomous vehicles) transportation affect the job market?\nHow does public transportation affect the economy and development of a city?\nTo what extent does public transportation reduce the usage of private transportation?\nWhich are the financial support structures for public transportation and how did new global laws about pollution affect them?\nWhat is the relationship between public transportation and tourism?\nWhat is the future of public transportation security measures?\nWhat other type of eneergy (aside from gas) can public transportation use and how these alternatives affect pollution levels?\nHow does the travel time in public transportation affect the decision process about using a private tranport method?"
   }
 ]

@@ -1,0 +1,31 @@
+---
+title: What is the future of Public Transportation?
+format:
+  html:
+    css: h1
+bibliography: "Quarto_website.bib"
+---
+
+## Summary
+Public transportation is any method of transportation available to the public that is sponsored by governmental entities. In some countries, it is the most used method of transportation while, in others, it is almost inexistent. What are the benefits of having public transportation? Should governmental entities invest on it? What are the preferred methods of transportation? These are just a few questions that every government asks themselves. The public transportation insdustry is one of the biggest lines of business worldwide, with trillions of everyday users. It is so important that cities plan their growth around it in order to provide equal access for everyone. Not only the methods of transport are taken into account, but all the infrastructure surrounding it such as freeways, roads, tunnels, etc. This infrastructure ensures social, economical, and environmental sustainability on the city [@MURRAY1998319].
+
+![](images/im.jpg){width=50%, fig-align="center"}
+
+## Motivation
+I believe that the use of public transportation has an uncountable number of benefits. Growing up with many family members working for the public transportation sector in Madrid (Spain), I have developed a strong sense of value for this industry. While many variables and many different (sometimes opposite) interests need to be taken into account, public transport has become essential for our society. Millions of people depend on it to carry out essential activities such as shopping, going to work, or going to do other daily chores. For this reason, it is an industry that deserves severe research and development. Furthermore, due to COVID-19, the number of riders of public transportation have decreased, and there is an urgent need to bring them back. This will allow cities to be more socially sustainable and reduce the polution levels [@AdvancingPublicTransport].
+
+The goal of this research is to make a case about the worth of having public transportation around the world and make recommendations for future steps that should be taken in this field.
+
+## Questions
+1. How does public transport affect pollution?
+2. What are the most pressing issues related to public transport?
+3. How will intelligent (autonomous vehicles) transportation affect the job market?
+4. How does public transportation affect the economy and development of a city?
+5. To what extent does public transportation reduce the usage of private transportation?
+6. Which are the financial support structures for public transportation and how did new global laws about pollution affect them?
+7. What is the relationship between public transportation and tourism? 
+8. What is the future of public transportation security measures?
+9. What other type of eneergy (aside from gas) can public transportation use and how these alternatives affect pollution levels?
+10. How does the travel time in public transportation affect the decision process about using a private tranport method?
+
+

@@ -103,5 +103,54 @@
     "title": "What is the future of Public Transportation?",
     "section": "Questions",
     "text": "Questions\n\nHow does public transport affect pollution?\nWhat are the most pressing issues related to public transport?\nHow will intelligent (autonomous vehicles) transportation affect the job market?\nHow does public transportation affect the economy and development of a city?\nTo what extent does public transportation reduce the usage of private transportation?\nWhich are the financial support structures for public transportation and how did new global laws about pollution affect them?\nWhat is the relationship between public transportation and tourism?\nWhat is the future of public transportation security measures?\nWhat other type of eneergy (aside from gas) can public transportation use and how these alternatives affect pollution levels?\nHow does the travel time in public transportation affect the decision process about using a private tranport method?"
+  },
+  {
+    "objectID": "Data_Gathering.html",
+    "href": "Data_Gathering.html",
+    "title": "Data Gathering",
+    "section": "",
+    "text": "All data files, whether generated using code or directly downloaded from the source can be found and downloaded in the data tab of the website."
+  },
+  {
+    "objectID": "Data_Gathering.html#education",
+    "href": "Data_Gathering.html#education",
+    "title": "Data Gathering",
+    "section": "Education",
+    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "Data_Gathering.html#experience",
+    "href": "Data_Gathering.html#experience",
+    "title": "Data Gathering",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+  },
+  {
+    "objectID": "Data_Gathering.html#apis",
+    "href": "Data_Gathering.html#apis",
+    "title": "Data Gathering",
+    "section": "APIs",
+    "text": "APIs\n\nReddit API\nThe following code extracted reddit urls from reddit posts about Public Transportation and saved them to a .json.\nlibrary(RedditExtractoR)\nlibrary(jsonlite)\n\ntop_Pub_Transp_urls &lt;- find_thread_urls(keywords=\"public transportation\")\njsonlite::write_json(top_Pub_Transp_urls, \"top_pub_transp_urls.json\")\nThen, the following code extracted the content of those reddit posts and performed sentiment analysis on them, generated a data frame, and saved it to a .csv file\n\n\nCode\nimport pandas as pd\nimport json\n\n# Load the sentiment scores from the JSON file\nwith open('sentiment_scores.json', 'r') as json_file:\n    sentiment_scores = json.load(json_file)\n\n# Initialize lists to store data\nids = []\nneg_scores = []\nneu_scores = []\npos_scores = []\ncompound_scores = []\n\n# Extract the scores and create separate lists for each\nfor idx, item in enumerate(sentiment_scores, start=1):\n    ids.append(idx)\n    sentiment_score = item.get('sentiment_score', {})\n    neg_scores.append(sentiment_score.get('neg', 0))\n    neu_scores.append(sentiment_score.get('neu', 0))\n    pos_scores.append(sentiment_score.get('pos', 0))\n    compound_scores.append(sentiment_score.get('compound', 0))\n\n# Create a DataFrame\ndata = {\n    'ID': ids,\n    'Negative Score': neg_scores,\n    'Neutral Score': neu_scores,\n    'Positive Score': pos_scores,\n    'Compound Score': compound_scores\n}\n\ndf = pd.DataFrame(data)\n\n# Save to CSV\ndf.to_csv('sentiment_scores.csv', index=False)\n\n\nThe final data’s first few rows look like this:\n\n\n\n\n\n\n\nAPI for cityofchicago.org\nThe following code extracted the following data frame about buses information and saved it into a csv file.\n\n\nCode\nimport pandas as pd\nfrom sodapy import Socrata\n\nclient = Socrata(\"data.cityofchicago.org\", None)\n\nresults = client.get(\"bynn-gwxy\", limit=2000)\n\n# Convert to pandas DataFrame\nresults_df = pd.DataFrame.from_records(results)\n\n# Save to CSV\nresults_df.to_csv('Chicago_avg_Buses.csv')\n\n\nThis is a snapshot of the data:"
+  },
+  {
+    "objectID": "Data_Gathering.html#data-from-data.world",
+    "href": "Data_Gathering.html#data-from-data.world",
+    "title": "Data Gathering",
+    "section": "Data from data.world",
+    "text": "Data from data.world\nThe file DC_Metro_Scorecard.xlsx and the zip folders: Walkable_distance_to_PubTrans, and capmetro_smart_trips_questionaire zip folders contain data that was downloaded from data.world. These are the three links where the data was downloaded from(in order of mention):\n\nhttps://data.world/makeovermonday/2016w51\nhttps://data.world/chhs/5e391154-f07d-4e0c-ab1b-687a0c4c5d06\nhttps://data.world/browning/capmetro-smart-trips-questionaire\n\nThe data looks like this (in order of mention):"
+  },
+  {
+    "objectID": "Data_Gathering.html#data-from-bts.gov",
+    "href": "Data_Gathering.html#data-from-bts.gov",
+    "title": "Data Gathering",
+    "section": "Data from bts.gov",
+    "text": "Data from bts.gov\nThe files: bus_consumption_fuel_by_year.xlsx, energy_consumed_byMill_passenger_MILES.xlsx, fatalities_bus_over_time.xlsx, National_transport_usage_linked_Economic_trend.xlsx, and vehicle_production_countries.xlsx are downloaded from: https://www.bts.gov.\nThese are some snapshots of how the data looks like:"
+  },
+  {
+    "objectID": "Data_Gathering.html#data-from-international-transport-forum",
+    "href": "Data_Gathering.html#data-from-international-transport-forum",
+    "title": "Data Gathering",
+    "section": "Data from International Transport Forum",
+    "text": "Data from International Transport Forum\nThe file Value_transport_by_countries.csv was downloaded from: https://stats.oecd.org/Index.aspx?DataSetCode=ITF_PASSENGER_TRANSPORT\nThe data on that file looks like this:"
   }
 ]

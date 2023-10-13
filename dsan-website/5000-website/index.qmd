@@ -10,7 +10,6 @@ about:
     - icon: github
       text: Github
       href: https://github.com/jbrismor
-  # https://images.pexels.com/photos/2080960/pexels-photo-2080960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 ---
 ## About me
 

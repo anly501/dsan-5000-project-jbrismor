@@ -17,9 +17,11 @@ website:
       - text: Data Gathering
         href: Data_Gathering.ipynb    
       - text: Data Cleaning
-        href: index.qmd      
+        href: Data_cleaning.ipynb    
       - text: Data Exploration
-        href: index.qmd      
+        href: EDA.ipynb
+      - text: Naive Bayes
+        href: Naive_Bayes.ipynb     
       - text: Clustering
         href: index.qmd      
       - text: Dimensionality reduction

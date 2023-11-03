@@ -1,0 +1,233 @@
+{
+  "accrual_periodicity": "other",
+  "additional_limitations": "",
+  "citation": "Healthy Communities Data and Indicators Project, CDPH and UCSF. 2015.",
+  "contact_email": "opendata@cdph.ca.gov",
+  "data_collection_tool": "",
+  "data_license": "Terms of Use",
+  "de_identification_method": "",
+  "description": "This table contains data on the percent of population residing within ½ mile of a major transit stop for four California regions and the counties, cities/towns, and census tracts within the regions.  The percent was calculated using data from four metropolitan planning organizations (San Diego Association of Governments, Southern California Association of Governments, Metropolitan Transportation Commission, and Sacramento Council of Governments) and the U.S. Census Bureau. The table is part of a series of indicators in the Healthy Communities Data and Indicators Project of the Office of Health Equity. A strong and sustainable transportation system supports safe, reliable, and affordable transportation opportunities for walking, bicycling, and public transit, and helps reduce health inequities by providing more opportunities for access to healthy food, jobs, health care, education, and other essential services. Active and public transportation promote health by enabling individuals to increase their level of physical activity, potentially reducing the risk of heart disease and obesity, improving mental health, and lowering blood pressure.  More information about the data table and a data dictionary can be found in the About/Attachments section.",
+  "geo_coverage": "California",
+  "geographic_granularity": "regional",
+  "keywords": [
+    "access to high quality public transit",
+    "hci",
+    "healthy community indicator",
+    "public transportation",
+    "public transportation access",
+    "social determinants of health",
+    "walkable public transportation"
+  ],
+  "limitations": "Limitations",
+  "name": "walkable-distance-public-transit-2008-2012",
+  "program_web_page": "https://www.cdph.ca.gov/Programs/OHE/Pages/HCI-Search.aspx",
+  "related_resources": "",
+  "resources": [
+    {
+      "description": "This table contains data on the percent of population residing within ½ mile of a major transit stop for four California regions and the counties, cities/towns, and census tracts within the regions.  The percent was calculated using data from four metropolitan planning organizations (San Diego Association of Governments, Southern California Association of Governments, Metropolitan Transportation Commission, and Sacramento Council of Governments) and the U.S. Census Bureau. The table is part of a series of indicators in the [Healthy Communities Data and Indicators Project of the Office of Health Equity](https://www.cdph.ca.gov/Programs/OHE/Pages/Healthy-Communities-Data-and-Indicators-Project-(HCI).aspx). A strong and sustainable transportation system supports safe, reliable, and affordable transportation opportunities for walking, bicycling, and public transit, and helps reduce health inequities by providing more opportunities for access to healthy food, jobs, health care, education, and other essential services. Active and public transportation promote health by enabling individuals to increase their level of physical activity, potentially reducing the risk of heart disease and obesity, improving mental health, and lowering blood pressure.  More information about the data table and a data dictionary can be found in the About/Attachments section.",
+      "format": "PDF",
+      "name": "narrative-and-examples-walkable-distance-to-public-transit",
+      "path": "narrative-and-examples-walkable-distance-to-public-transit.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/5e391154-f07d-4e0c-ab1b-687a0c4c5d06/resource/7e488742-8ad9-4d02-921c-8ba74edb0f9a/download/hcirailferrybus51narrativeandexamples11-26-13socalmtcsac.pdf",
+          "title": "Narrative and Examples-Walkable Distance to Public Transit"
+        }
+      ],
+      "title": "Narrative and Examples-Walkable Distance to Public Transit"
+    },
+    {
+      "description": "This table contains data on the percent of population residing within ½ mile of a major transit stop for four California regions and the counties, cities/towns, and census tracts within the regions.  The percent was calculated using data from four metropolitan planning organizations (San Diego Association of Governments, Southern California Association of Governments, Metropolitan Transportation Commission, and Sacramento Council of Governments) and the U.S. Census Bureau. The table is part of a series of indicators in the [Healthy Communities Data and Indicators Project of the Office of Health Equity](https://www.cdph.ca.gov/Programs/OHE/Pages/Healthy-Communities-Data-and-Indicators-Project-(HCI).aspx). A strong and sustainable transportation system supports safe, reliable, and affordable transportation opportunities for walking, bicycling, and public transit, and helps reduce health inequities by providing more opportunities for access to healthy food, jobs, health care, education, and other essential services. Active and public transportation promote health by enabling individuals to increase their level of physical activity, potentially reducing the risk of heart disease and obesity, improving mental health, and lowering blood pressure.  More information about the data table and a data dictionary can be found in the About/Attachments section.",
+      "format": "XLSX",
+      "name": "walkable-distance-public-transit-2008-2012",
+      "path": "walkable-distance-public-transit-2008-2012.xlsx",
+      "schema": {
+        "fields": [
+          {
+            "description": "Indicator ID",
+            "name": "ind_id",
+            "title": "ind_id",
+            "type": "string"
+          },
+          {
+            "description": "Definition of indicator in plain language",
+            "name": "ind_definition",
+            "title": "ind_definition",
+            "type": "string"
+          },
+          {
+            "description": "Year(s) that the indicator was reported\n",
+            "name": "reportyear",
+            "title": "reportyear",
+            "type": "string"
+          },
+          {
+            "description": "Numeric code for a race/ethnicity group: 1=American Indian or Alaska Native (AIAN); 2=Asian; 3=Black or African American (AfricanAm); 4=Latino; 5=Native Hawaiian or Other Pacific Islander (NHOPI); 6=White;7= Multiple; 8=Other;9=Total\n",
+            "name": "race_eth_code",
+            "title": "race_eth_code",
+            "type": "string"
+          },
+          {
+            "description": "Name of race/ethnic group: AIAN; Asian; AfricanAm; Latino; NHOPI; White; Multiple; Other; Total\n",
+            "name": "race_eth_name",
+            "title": "race_eth_name",
+            "type": "string"
+          },
+          {
+            "description": "Type of geographic unit: PL=Place (includes cities, towns, and census designated places -CDP-. It does not include unincorporated communities); CO=County; RE=region; CA=State\n",
+            "name": "geotype",
+            "title": "geotype",
+            "type": "string"
+          },
+          {
+            "description": "Name of geographic unit: place name, county name, region name, or state name\n",
+            "name": "geotypevalue",
+            "title": "geotypevalue",
+            "type": "string"
+          },
+          {
+            "description": "place name, county name, region name, or state name\n",
+            "name": "geoname",
+            "title": "geoname",
+            "type": "string"
+          },
+          {
+            "description": "Name of county that geotype is in. Not available for geotypes RE and CA\n",
+            "name": "county_name",
+            "title": "county_name",
+            "type": "string"
+          },
+          {
+            "description": "2-digit census state code (06) plus 3-digit census county code\n",
+            "name": "county_fips",
+            "title": "county_fips",
+            "type": "string"
+          },
+          {
+            "description": "Metropolitan Planning Organizations (MPO) regions as reported in the 2010 California Regional Progress Report (http://www.dot.ca.gov/hq/tpp/offices/orip/Collaborative%20Planning/Files/CARegionalProgress_2-1-2011.pdf).\n",
+            "name": "region_name",
+            "title": "region_name",
+            "type": "string"
+          },
+          {
+            "description": "Metropolitan Planning Organization (MPO)-based region code: 01=Bay Area; 08=Sacramento Area; 09=San Diego; 14=Southern California\n\n",
+            "name": "region_code",
+            "title": "region_code",
+            "type": "string"
+          },
+          {
+            "description": "Population count (at census block level) within 1/2 mile of high quality transit stop (<15 min waiting time at peak commute hours) classified by block centroid falling within transit buffer areas\n",
+            "name": "pop_trans_acc",
+            "title": "pop_trans_acc",
+            "type": "number"
+          },
+          {
+            "description": "Total population in 2010\n",
+            "name": "pop2010",
+            "title": "pop2010",
+            "type": "number"
+          },
+          {
+            "description": "Percent of the population (at census block level) within 1/2 mile of high quality transit stop (<15 min waiting time at peak commute hours)\n",
+            "name": "p_trans_acc",
+            "title": "p_trans_acc",
+            "type": "number"
+          },
+          {
+            "description": "Lower limit of 95% confidence interval\n",
+            "name": "LL_95CI",
+            "title": "LL_95CI",
+            "type": "number"
+          },
+          {
+            "description": "Upper limit of 95% confidence interval\n",
+            "name": "UL_95CI",
+            "title": "UL_95CI",
+            "type": "number"
+          },
+          {
+            "description": "Standard error of percent \n",
+            "name": "se",
+            "title": "se",
+            "type": "number"
+          },
+          {
+            "description": "Relative standard error (se/percent * 100) expressed as a percent\n",
+            "name": "rse",
+            "title": "rse",
+            "type": "number"
+          },
+          {
+            "name": "SAC_decile",
+            "type": "number"
+          },
+          {
+            "name": "SAC_RR",
+            "type": "number"
+          },
+          {
+            "description": "Date/time stamp of version of data: MM/DD/CCYY hh:mm:ss\n\n",
+            "name": "version",
+            "title": "version",
+            "type": "datetime"
+          },
+          {
+            "name": "MTC_decile",
+            "type": "string"
+          },
+          {
+            "name": "MTC_RR",
+            "type": "string"
+          },
+          {
+            "name": "SD_decile",
+            "type": "string"
+          },
+          {
+            "name": "SD_RR",
+            "type": "string"
+          },
+          {
+            "name": "SC_decile",
+            "type": "string"
+          },
+          {
+            "name": "SC_RR",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/5e391154-f07d-4e0c-ab1b-687a0c4c5d06/resource/d8d7d188-fbf8-413e-9a7f-639d3828c17e/download/walkable_distance_to_public_transportation.xlsx",
+          "title": "Walkable Distance Public Transit, 2008-2012"
+        }
+      ],
+      "title": "Walkable Distance Public Transit, 2008-2012"
+    },
+    {
+      "description": "This table contains data on the percent of population residing within ½ mile of a major transit stop for four California regions and the counties, cities/towns, and census tracts within the regions.  The percent was calculated using data from four metropolitan planning organizations (San Diego Association of Governments, Southern California Association of Governments, Metropolitan Transportation Commission, and Sacramento Council of Governments) and the U.S. Census Bureau. The table is part of a series of indicators in the [Healthy Communities Data and Indicators Project of the Office of Health Equity](https://www.cdph.ca.gov/Programs/OHE/Pages/Healthy-Communities-Data-and-Indicators-Project-(HCI).aspx). A strong and sustainable transportation system supports safe, reliable, and affordable transportation opportunities for walking, bicycling, and public transit, and helps reduce health inequities by providing more opportunities for access to healthy food, jobs, health care, education, and other essential services. Active and public transportation promote health by enabling individuals to increase their level of physical activity, potentially reducing the risk of heart disease and obesity, improving mental health, and lowering blood pressure.  More information about the data table and a data dictionary can be found in the About/Attachments section.",
+      "format": "XLSX",
+      "name": "walkable-distance-to-public-transit-data-dictionary",
+      "path": "walkable-distance-to-public-transit-data-dictionary.xlsx",
+      "schema": {
+        "fields": []
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/5e391154-f07d-4e0c-ab1b-687a0c4c5d06/resource/a13e575e-abb8-47f6-bdc1-15bceb17befc/download/walkabledistancepublictransitdd.xlsx",
+          "title": "Walkable Distance to Public Transit Data Dictionary"
+        }
+      ],
+      "title": "Walkable Distance to Public Transit Data Dictionary"
+    }
+  ],
+  "secondary_sources": "2012 Transit Stops from the San Diego Association of Governments (www.sandag.org/), the Southern California Association of Governments (www.scag.ca.gov), and the Metropolitan Transportation Commission (www.mtc.ca.gov) ; 2008 Transit Stops from the Sacramento Council of Governments (www.sacog.org); 2010 block-level population data by race and ethnicity from the U.S. Census Bureau (provided by California State Data Center at the California Department of Finance)",
+  "sources": [
+    {
+      "name": "Office of Health Equity, Healthy Places Team"
+    }
+  ],
+  "temporal_coverage": "2008 (Sacramento region), 2012",
+  "title": "Walkable Distance to Public Transit"
+}

@@ -1,0 +1,16 @@
+---
+title: "reddit_api"
+format: html
+editor: visual
+---
+
+```{r}
+library(RedditExtractoR)
+library(jsonlite)
+```
+
+```{r}
+
+top_Pub_Transp_urls <- find_thread_urls(keywords="public transportation")
+jsonlite::write_json(top_Pub_Transp_urls, "top_pub_transp_urls.json")
+```

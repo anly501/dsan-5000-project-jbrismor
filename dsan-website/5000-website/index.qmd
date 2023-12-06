@@ -1,7 +1,7 @@
 ---
 title: "Jorge Bris Moreno"
 about:
-  template: trestles
+  template: jolla
   image: images/my_image.jpeg
   links:
     - icon: linkedin
@@ -10,16 +10,42 @@ about:
     - icon: github
       text: Github
       href: https://github.com/jbrismor
+format: 
+    html:
+        toc: False
+        embed-resources: true
 ---
-## About me
+## Meet me
 
-Jorge Bris Moreno is a Master's student of the Data Science and Analytics program at Georgetown University. In his undergraduate studies, he majored in Mathematics and Business from Franklin & Marshall College. His most relevant experiences have been in project management and business planning.
+I am an aspiring data scientist who wants to make an impact through thoughtful decision-making. 
+
+My sweet spot is drawing conclusions from data and transmitting them.
+
+Growing up, my parents taught me to always make a list of pros and cons before making an important decision. This would help me visualize if a choice is the right one or not. And this is what has led me to where I am at today. We live in a world surrounded by underutilized data. Every decision, the same as a list of pros and cons, can be backed up by properly analyzing data. 
+
+Drawing conclusions from this data is where my skills in statistics, data science, modeling, and programming skills come into place. My current and previous studies have helped me develop these skills while my experiences in different fields such as project management, entrepreneurship, sales, and teaching have helped me put them into practice while building my soft skills.
+
+## Growing Up
+
+![ ](images/family.JPG){width=30%, fig-align="center"}
+
+This is my family in Madrid! 
 
 ## Education
 
 **Georgetown University** \| Washington, DC<div>M.S in Data Science & Analytics \| Jun 2023 - May 2025
 
+I am currently studying a MS in Data Science and Analytics at Georgetown University.
+
 **Franklin & Marshall College** \| Lancaster, PA<div>B.A in Mathematics and Business \| Aug 2019 - May 2023
+
+I double majored in Mathematics and Business at Franklin & Marshall College. During that time, I played varsity tennis, rugby, was part of the Google Student Developer Club, and was a member of Ware Parliament.
+
+## Hobbies
+
+I love playing sports, especially tennis and rugby. However, I love any other outdoor activity such as hiking, skiing, snowboarding, surfing, and many more! I strongly believe that sports are a great way to not only learn about yourself but be more disciplined and develop a strong work ethic.
+
+I also love photography. I have been taking pictures for a long time now and I love it. I love capturing moments and being able to look back at them. Photography allows you to look at the world from a different perspective and appreciate the little things in life. (You can see some of my work along with the awesome photographer Raluca Rilla's pics at [@lascallesde](https://instagram.com/lascallesde) in instagram!)
 
 ## Relevant Experience
 

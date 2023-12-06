@@ -2,7 +2,7 @@
 title: What is the future of Public Transportation?
 format:
   html:
-    css: h1
+    css: "styles.css"
 bibliography: "Quarto_website.bib"
 ---
 
@@ -16,16 +16,19 @@ I believe that the use of public transportation has an uncountable number of ben
 
 The goal of this research is to make a case about the worth of having public transportation around the world and make recommendations for future steps that should be taken in this field.
 
+## Polution concerns
+There is a worldwide concern about pollution. Pollution has been increasing since the industrial revolution and has been a major concern for the past 50 years. The main reason for this is the constant increase in the use of fossil fuels and the lack of alternatives. The transportation sector is one of the biggest contributors to pollution. In the United States, the transportation sector is responsible for 29% of the total greenhouse gas emissions [@EPA]. Transportation is a great percentage and one of the main pollutors. For this reason, it is important to study the effects of public transportation on pollution and how it can help reduce it. It can be analyzed internally (how to make public transportation pollute less) or externally (how to make people use public transportation more and private transportation less).
+
 ## Questions
 1. How does public transport affect pollution?
 2. What are the most pressing issues related to public transport?
-3. How will intelligent (autonomous vehicles) transportation affect the job market?
+3. How can we address public transportation at a large scale?
 4. How does public transportation affect the economy and development of a city?
 5. To what extent does public transportation reduce the usage of private transportation?
-6. Which are the financial support structures for public transportation and how did new global laws about pollution affect them?
-7. What is the relationship between public transportation and tourism? 
-8. What is the future of public transportation security measures?
-9. What other type of eneergy (aside from gas) can public transportation use and how these alternatives affect pollution levels?
-10. How does the travel time in public transportation affect the decision process about using a private tranport method?
+6. Which factors influence effectiveness of public transportation the most?
+7. What is the reffect of transportation in pollution?
+8. Has public transportation been improving overtime?
+9.  Do different public transportation methods hold different values (important for investment)?
+10. What is most important to people regarding public transportation?
 
 

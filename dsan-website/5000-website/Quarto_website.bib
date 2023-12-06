@@ -1,12 +1,77 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for jorge bris moreno at 2023-09-19 11:15:50 -0400 
+%% Created for jorge bris moreno at 2023-12-04 11:29:26 -0500 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@article{t-SNE,
+	abstract = {Dimension reduction (DR) techniques such as t-SNE, UMAP, and TriMap have demonstrated impressive visualization performance on many real-world datasets. One tension that has always faced these methods is the trade-off between preservation of global structure and preservation of local structure: these methods can either handle one or the other, but not both. In this work, our main goal is to understand what aspects of DR methods are important for preserving both local and global structure: it is difficult to design a better method without a true understanding of the choices we make in our algorithms and their empirical impact on the low-dimensional embeddings they produce. Towards the goal of local structure preservation, we provide several useful design principles for DR loss functions based on our new understanding of the mechanisms behind successful DR methods. Towards the goal of global structure preservation, our analysis illuminates that the choice of which components to preserve is important. We leverage these insights to design a new algorithm for DR, called Pairwise Controlled Manifold Approximation Projection (PaCMAP), which preserves both local and global structure. Our work provides several unexpected insights into what design choices both to make and avoid when constructing DR algorithms.},
+	articleno = {201},
+	author = {Wang, Yingfan and Huang, Haiyang and Rudin, Cynthia and Shaposhnik, Yaron},
+	date-added = {2023-12-04 11:29:13 -0500},
+	date-modified = {2023-12-04 11:29:26 -0500},
+	issn = {1532-4435},
+	issue_date = {January 2021},
+	journal = {J. Mach. Learn. Res.},
+	keywords = {dimension reduction, data visualization},
+	month = {jan},
+	number = {1},
+	numpages = {73},
+	publisher = {JMLR.org},
+	title = {Understanding How Dimension Reduction Tools Work: An Empirical Approach to Deciphering t-SNE, UMAP, TriMap, and PaCMAP for Data Visualization},
+	volume = {22},
+	year = {2021}}
+
+@misc{PCA,
+	archiveprefix = {arXiv},
+	author = {Jonathon Shlens},
+	date-added = {2023-12-04 11:16:45 -0500},
+	date-modified = {2023-12-04 11:16:53 -0500},
+	eprint = {1404.1100},
+	primaryclass = {cs.LG},
+	title = {A Tutorial on Principal Component Analysis},
+	year = {2014}}
+
+@techreport{EPA_Variables,
+	annote = {Title:	Smart Location Database Technical Documentation and User Guide Version 3.0
+Author:	United States Environmental Protection Agency and UD4H
+Subject:	Subject: Smart Location Database Technical Documentation and User Guide Version 3.0 (2021) contains a detailed description of the data sources and methodologies used to calculate the variables in the Smart Location Database. It also discusses known limitations associated with the variables.
+Keywords:	Revitalization, Walkability, Smart location, Location efficiency, Siting, Smart growth, Transit use, Transit access, Employment, Jobs, Workers, Employees, Land use, Planning, Walkability Index, Methodology, User guide, walkability index score, suburban residential, historic main street, downtown, city center, town center, in action, june 2021
+Created:	6/3/21, 4:06:08 PM
+Modified:	6/15/21, 3:53:08 PM
+Application:	Acrobat PDFMaker 21 for Word},
+	author = {Jim Chapman, Eric H. Fox, William Bachman, Lawrence D. Frank, John Thomas, Alexis Rourk Reyes},
+	date-added = {2023-12-04 10:51:11 -0500},
+	date-modified = {2023-12-04 10:57:00 -0500},
+	institution = {United States Environmental Protection Agency and UD4H},
+	month = {June},
+	title = {Smart Location Database Technical Documentation and User Guide Version 3.0},
+	year = {2021},
+	bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBmLi4vLi4vZGF0YS9SYXdfRGF0YV9wcm9qZWN0X1B1Yi5UcmFuc3BvcnRfNTAwMC9FUEFfU0xEXzMuMF9UZWNobmljYWxEb2N1bWVudGF0aW9uVXNlckd1aWRlX01heTIwMjEucGRmTxECwgAAAAACwgACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAA4SslvkJEAAH/////H0VQQV9TTERfMy4wX1RlY2huaSNGRkZGRkZGRi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/////c3rIyAAAAAAAAAAAAAgADAAAKIGN1AAAAAAAAAAAAAAAAAB9SYXdfRGF0YV9wcm9qZWN0X1B1Yi5UcmFuc3BvciNGAAACALAvOlVzZXJzOmpvcmdlYnJpc21vcmVubzpEZXNrdG9wOkRTQU5fNTAwMDpod2tzOkhXLTAxOmRzYW4tNTAwMC1wcm9qZWN0LWpicmlzbW9yOmRhdGE6UmF3X0RhdGFfcHJvamVjdF9QdWIuVHJhbnNwb3J0XzUwMDA6RVBBX1NMRF8zLjBfVGVjaG5pY2FsRG9jdW1lbnRhdGlvblVzZXJHdWlkZV9NYXkyMDIxLnBkZgAOAHAANwBFAFAAQQBfAFMATABEAF8AMwAuADAAXwBUAGUAYwBoAG4AaQBjAGEAbABEAG8AYwB1AG0AZQBuAHQAYQB0AGkAbwBuAFUAcwBlAHIARwB1AGkAZABlAF8ATQBhAHkAMgAwADIAMQAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIArlVzZXJzL2pvcmdlYnJpc21vcmVuby9EZXNrdG9wL0RTQU5fNTAwMC9od2tzL0hXLTAxL2RzYW4tNTAwMC1wcm9qZWN0LWpicmlzbW9yL2RhdGEvUmF3X0RhdGFfcHJvamVjdF9QdWIuVHJhbnNwb3J0XzUwMDAvRVBBX1NMRF8zLjBfVGVjaG5pY2FsRG9jdW1lbnRhdGlvblVzZXJHdWlkZV9NYXkyMDIxLnBkZgATAAEvAAAVAAIAFv//AAAACAANABoAJACNAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAA1M=}}
+
+@inproceedings{Davies_boulding_index,
+	author = {Petrovic, Slobodan},
+	booktitle = {Proceedings of the 11th Nordic workshop of secure IT systems},
+	date-added = {2023-12-04 10:43:40 -0500},
+	date-modified = {2023-12-04 10:44:09 -0500},
+	organization = {Citeseer},
+	pages = {53--64},
+	title = {A comparison between the silhouette index and the davies-bouldin index in labelling ids clusters},
+	volume = {2006},
+	year = {2006}}
+
+@misc{EPA,
+	author = {Offce of Transportation and Air Quality},
+	date-added = {2023-12-03 19:17:11 -0500},
+	date-modified = {2023-12-04 01:41:37 -0500},
+	month = {June},
+	title = {U.S.Transportation Sector Greenhouse Gas Emissions},
+	year = {2023},
+	bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBRLi4vLi4vLi4vLi4vLi4vLi4vLi4vTGlicmFyeS9Nb2JpbGUgRG9jdW1lbnRzLy5UcmFzaC9UcmFuc3BvcnRhdGlvbl9wb2xsdXRpb24ucGRmTxEBugAAAAABugACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAA4SslvkJEAAH/////HFRyYW5zcG9ydGF0aW9uX3BvbGx1dGlvbi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/////hkoR9AAAAAAAAAAAABwAEAAAKIGN1AAAAAAAAAAAAAAAAAAYuVHJhc2gAAgBULzpVc2Vyczpqb3JnZWJyaXNtb3Jlbm86TGlicmFyeTpNb2JpbGUgRG9jdW1lbnRzOi5UcmFzaDpUcmFuc3BvcnRhdGlvbl9wb2xsdXRpb24ucGRmAA4AOgAcAFQAcgBhAG4AcwBwAG8AcgB0AGEAdABpAG8AbgBfAHAAbwBsAGwAdQB0AGkAbwBuAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBSVXNlcnMvam9yZ2VicmlzbW9yZW5vL0xpYnJhcnkvTW9iaWxlIERvY3VtZW50cy8uVHJhc2gvVHJhbnNwb3J0YXRpb25fcG9sbHV0aW9uLnBkZgATAAEvAAAVAAIAFv//AAAACAANABoAJAB4AAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAjY=}}
 
 @article{AdvancingPublicTransport,
 	author = {UITP},

@@ -8,37 +8,33 @@ website:
     left:
       - href: index.qmd
         text: About me
-      - href: https://github.com/anly501/dsan-5000-project-jbrismor.git
-        text: Code 
-      - text: Data
-        href: index.qmd
-      - text: Introduction
-        href: Introduction.qmd
-      - text: Data Gathering
-        href: Data_Gathering.ipynb    
-      - text: Data Cleaning
-        href: Data_cleaning.ipynb    
-      - text: Data Exploration
-        href: EDA.ipynb
-      - text: Naive Bayes
-        href: Naive_Bayes.ipynb     
-      - text: Clustering
-        href: Clustering.ipynb      
-      - text: Dimensionality reduction
-        href: Dimension_red.ipynb      
-      - text: Decision Trees
+      - text: Beyond Moving
         menu:
-          - text: Classification
-            href: index.qmd        
-          - text: Regression
-            href: index.qmd        
-      - text: ARM
-        href: index.qmd      
-      - text: Conclusions
-        href: index.qmd      
-
+          - text: Code
+            href: https://github.com/anly501/dsan-5000-project-jbrismor/tree/acc8e510980706cfe1e58878f92008ae25e48516/dsan-website/5000-website
+          - text: Data
+            href: Data.ipynb
+          - text: Introduction
+            href: Introduction.qmd
+          - text: Data Gathering
+            href: Data_Gathering.ipynb    
+          - text: Data Cleaning
+            href: Data_cleaning.ipynb    
+          - text: Data Exploration
+            href: EDA.ipynb
+          - text: Naive Bayes
+            href: Naive_Bayes.ipynb     
+          - text: Clustering
+            href: Clustering.ipynb      
+          - text: Dimensionality reduction
+            href: Dimension_red.ipynb      
+          - text: Decision Trees
+            href: trees.ipynb       
+          - text: Conclusion
+            href: Conclusion.ipynb
+  
 format:
   html:
-    theme: cosmo
+    theme: yeti
     css: styles.css
     toc: true
